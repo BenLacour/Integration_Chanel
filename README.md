@@ -6,3 +6,7 @@ Voici un travail d'intégration réalisé dans le cadre de ma formation WF3 à l
 
 1. HTML 5
 2. CSS 3
+
+---
+
+Exercice réalisé à des fins d'apprentissage
