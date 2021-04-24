@@ -1,0 +1,147 @@
+/* Reset général */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Caractéristiques générales */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Main */
+
+main {
+  display: flex;
+  height: 100vh;
+}
+
+/* Partie gauche */
+
+.bgc_blue1 {
+  width: 50%;
+  height: 100%;
+  background-color: #2978b5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.partie_gauche {
+  background-color: white;
+  height: 70%;
+  width: 80%;
+  padding: 5rem;
+}
+
+.chanel_menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.eaudeparf {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.eaudeparf h1 {
+  padding: 3rem;
+  font-size: 5rem;
+  margin-bottom: 10%;
+}
+
+.menuBas {
+  display: flex;
+  justify-content: space-between;
+  margin: 10% 0 5% 0;
+}
+
+/* Partie droite */
+
+.bgc_blue2 {
+  width: 50%;
+  height: 100%;
+  background-color: #0061a8;
+  display: flex;
+  align-items: center;
+}
+
+.partie_droite {
+  background-color: white;
+  height: 70%;
+  width: 80%;
+}
+
+.bleuchanel {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.bleuchanel img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.n5chanel {
+  display: flex;
+  height: 50%;
+}
+
+.n5chanel img {
+  object-fit: cover;
+  max-height: 100%;
+  width: 50%;
+}
+
+.collection {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection i {
+  margin-top: 1rem;
+}
+
+/* Effets */
+
+a:hover {
+  color: rgb(204, 165, 58);
+}
+
+.collection i:hover {
+  transition: all 0.2s ease-out;
+  transform: scale(2);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 990px) {
+}
